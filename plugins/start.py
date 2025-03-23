@@ -16,7 +16,7 @@ from helper_func import subscribed1, subscribed2, encode, decode, get_messages, 
 from database.database import add_user, del_user, full_userbase, present_user, is_admin
 from shortzy import Shortzy
 
-BOT_USERNAME = "SagaCrushXbot"
+BOT_USERNAME = "Backbencherstoken_bot"
 
 @Bot.on_message(filters.command('start') & filters.private & subscribed1 & subscribed2)
 async def start_command(client: Bot, message: Message):
