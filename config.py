@@ -28,13 +28,13 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "7550106593"))
 PORT = os.environ.get("PORT", "8091")
 
 #Database
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://cluchbhaineverdie:HbPoj6LkrM5hOJzn@cluster0.ydodm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://@cluster0.ydodm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DATABASE_NAME", "tokenbotbyme")
 JOIN_REQS_DB = environ.get("JOIN_REQS_DB", DB_URI)
 
 
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "Urlwala.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "012b548ecd8b290feee25a4736747ac9a9801608")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400	)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID", "https://t.me/Backbencherskabackupchannel/247") # shareus ka tut_vid he 
