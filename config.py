@@ -10,7 +10,7 @@ from os import environ
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7998091148:AAFDNAStcQIkIZz19_bat1KhbK2ZCixYK9Q")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", ":7998091148:AAFDNAStcQIkIZz19_bat1KhbK2ZCixYK9Q")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "28154335"))
@@ -33,7 +33,7 @@ DB_NAME = os.environ.get("DATABASE_NAME", "tokenbotbyme")
 JOIN_REQS_DB = environ.get("JOIN_REQS_DB", DB_URI)
 
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "http://Modijiurl.com")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "api.modijiurl.com")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "364fa032caeff1e9a71271382b1f6104dfe8185b")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400	)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
